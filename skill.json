@@ -1,0 +1,29 @@
+{
+  "name": "genpark-agent-codebase-ast-dependency-slicer-skill",
+  "version": "1.0.0",
+  "description": "Multi-file AST dependency graph parser & minimum context slicer extracting symbol call-trees for coding agents.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "ast-parser",
+    "coding-agent",
+    "dependency-graph",
+    "repomix",
+    "cursor",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "extract_import_graph",
+      "description": "Extract file-level import relationships across source files."
+    },
+    {
+      "name": "slice_symbol_dependencies",
+      "description": "Generate minimal transitive sub-graph required to understand a target symbol."
+    },
+    {
+      "name": "run_benchmark_ast_slicing",
+      "description": "Benchmark AST slicing speed and graph resolution."
+    }
+  ]
+}
